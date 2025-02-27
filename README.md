@@ -21,15 +21,13 @@ This project ensures that every change is **automatically built, tested, and dep
 
 ---
 
-## **📌 How to Use the API**
-
----
-
 ## **📌 Deployment Details**
 - **Docker Hub**: The API is available as a Docker image at: 
   - `docker pull fengdizhao/heart-disease-api:latest`
 - **AWS EC2**: The API is running on a public EC2 instance (`44.210.111.71`)
 - **CI/CD Pipeline**: GitHub Actions automates deployment on every push to `main`.
+
+## **📌 How to Use the API**
 
 ---
 
