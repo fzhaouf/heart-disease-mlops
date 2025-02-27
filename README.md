@@ -23,6 +23,16 @@ This project ensures that every change is **automatically built, tested, and dep
 
 ## **📌 How to Use the API**
 
+---
+
+## **📌 Deployment Details**
+- **Docker Hub**: The API is available as a Docker image at: 
+  - `docker pull fengdizhao/heart-disease-api:latest`
+- **AWS EC2**: The API is running on a public EC2 instance (`44.210.111.71`)
+- **CI/CD Pipeline**: GitHub Actions automates deployment on every push to `main`.
+
+---
+
 ### **1️⃣ Test API Locally**
 If running locally, use the following cURL command:
 ```bash
@@ -39,14 +49,6 @@ curl -X POST "http://44.210.111.71:5001/predict" \
      -H "Content-Type: application/json" \
      -d '{"features": [63, 1, 3, 145, 233, 1, 0, 150, 0, 2.3, 0, 0, 1]}'
 ```
-
----
-
-## **📌 Deployment Details**
-- **Docker Hub**: The API is available as a Docker image at: 
-  - `docker pull fengdizhao/heart-disease-api:latest`
-- **AWS EC2**: The API is running on a public EC2 instance (`44.210.111.71`)
-- **CI/CD Pipeline**: GitHub Actions automates deployment on every push to `main`.
 
 ---
 
