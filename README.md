@@ -67,7 +67,7 @@ curl -X POST "http://44.210.111.71:5001/predict" \
 ---
 
 ## **🎯 Conclusion**
-This project successfully demonstrates **end-to-end MLOps practices** by:
+This project successfully demonstrates **end-to-end MLOps practices** by
 ✅ **Building & Training ML Models**  
 ✅ **Tracking Model Performance with MLflow**  
 ✅ **Deploying an API on AWS EC2**  
